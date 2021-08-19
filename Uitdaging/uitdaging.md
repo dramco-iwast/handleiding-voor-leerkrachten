@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start uitdaging
-nav_order: 2
+nav_order: 3
 ---
 # Uitdaging
 Het internet verbindt ons, mensen, met elkaar en laat ons toe met elkaar te communiceren, eenvoudig informatie te raadplegen, enz. Het Internet der Dingen is een uitbreiding op dit internet dat we allen kennen.

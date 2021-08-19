@@ -2,7 +2,7 @@
 layout: default
 title: SP 6 Synthese en reflectie
 has_children: true
-nav_order: 8
+nav_order: 9
 has_toc: true
 ---
 

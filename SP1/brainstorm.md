@@ -2,7 +2,7 @@
 layout: default
 title: SP 1 Brainstorm
 has_children: false
-nav_order: 3
+nav_order: 4
 has_toc: true
 ---
 
