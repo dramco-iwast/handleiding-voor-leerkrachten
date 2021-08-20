@@ -26,7 +26,7 @@ Op volgende websites vind je mogelijk inspiratie:
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html)
 
-_Je kan eventueel volgende ondersteunende ppt [hier](./../assets/files/IoT_IoTree.pdf) gebruiken om het internet en het Internet der Dingen bij je leerlingen te introduceren_
+_Je kan eventueel volgende ondersteunende ppt [hier](./../assets/files/IoT_IoTree.pdf) en [hier](./../assets/files/IoT_IoTree.pptx) gebruiken om het internet en het Internet der Dingen bij je leerlingen te introduceren_
 
 
 # SP 3 Selectie probleemstelling
