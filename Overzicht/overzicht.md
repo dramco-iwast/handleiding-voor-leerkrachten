@@ -4,6 +4,11 @@ title: Overzicht project
 nav_order: 2
 ---
 
+# Voorstelling KU Leuven Technologiecampus Gent en de opleiding industrieel ingenieur Elektronica-ICT
+
+[Voorstelling KU Leuven Technologiecampus Gent](https://www.youtube.com/watch?v=zAj-Sjh6M2U&ab_channel=KULeuvenTechnologiecampusGent)
+[Voorstelling opleiding industrieel ingenieur Elektronica-ICT](https://youtu.be/UQbW6TNYlA0)
+
 # Uitdaging
 
 ### Korte beschrijving
@@ -39,7 +44,7 @@ Op volgende websites vind je mogelijk inspiratie:
 
 # SP 2 Randvoorwaarden IoT systeem
 
-### Korte beschrijving
+## Korte beschrijving
 "Wat is het Internet der Dingen? 
 Meetgegevens: 
 * wat (welke sensoren)? 
@@ -47,20 +52,41 @@ Meetgegevens:
 * waar (afstand tot gateway)? 
 * wanneer (polling vs threshold)?"
 
-### Ondersteunend materiaal
+## Ondersteunend materiaal
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html)
 
 _Je kan eventueel volgende ondersteunende presentatie [PDF](./../assets/files/IoT_IoTree.pdf) en [ppt](./../assets/files/IoT_IoTree.pptx) gebruiken om het internet en het Internet der Dingen bij je leerlingen te introduceren_
 
+_Je kan eventueel volgende ondersteunende presentatie [ppt](./../assets/files/elektronische_systemen.pptx) gebruiken om elektronische systemen en sensoren bij je leerlingen te introduceren_
+
+### Oefening: randvoorwaarden oplijsten
+
+De leerlingen wordt gevraagd de beschikbare informatie door te nemen en de randvoorwaarden waarbinnen zij kunnen werken op te lijsten. Hierdoor zullen enkele tijdens de brainstorm geformuleerde ideeën vervallen. 
+
+Het lijstje van randvoorwaarden waarmee leerlingen zeker rekening moeten houden:
+* Energieverbruik: je kan ten snelste om de vijf minuten data doorsturen
+* Afstand: afhankelijk van de omgeving en gebruikte gateway moet je op een bepaalde afstand van de gateway blijven. Dit kan variëren van enkele tientallen meters in een druk bemeubelde binnenruimte met veel metalen structuren, tot enkele kilometers wanneer de gateway op een dak in een rustige - vb landbouw - omgeving geplaatst is
+* Beschikbare sensoren:
+    * Temperatuur
+    * Luchtdruk
+    * Luchtvochtigheid
+    * Luchtkwaliteit - geen CO_2 alleen!
+    * Geluid: geen geluid onder 65 dB op te meten
+    * Input van drukknopsensor: ongeveer 15 keer na elkaar stemmen, vervolgens enkele minuten wachten; of telkens enkele minuten tussen laten
+    * Lichtsensor
+    * Batterijspanning: zakt niet lineair met vermogen van de batterij.
+* Geen actuatoren aanwezig -> beperk je tot onderzoeks- of monitoringtoepassingen
+
+
 # SP 3 Selectie probleemstelling
 
-### Korte beschrijving
+## Korte beschrijving
 Welke probleemstellingen uit de brainstorm zijn haalbaar om te onderzoeken met de IoT technologie die wij ter beschikking stellen?
 * Wat moet je meten om een oplossing voor je probleemstelling te kunnen voorstellen?
 * Wat zijn je onderzoeksvragen?
 
-### Ondersteunend materiaal
+## Ondersteunend materiaal
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP3/selectieProbleem.html)
 
@@ -68,7 +94,7 @@ _We geven op bovenstaande webpagina enkele handvaten, maar we raden je aan zelf 
 
 # SP 4 Onderzoeksopzet
 
-### Korte beschrijving
+## Korte beschrijving
 
 Op welke manier moet je de IoT sensoren configureren om je probleemstelling te onderzoeken/op te lossen?
 * Welke sensor(en)?
@@ -78,7 +104,7 @@ Op welke manier moet je de IoT sensoren configureren om je probleemstelling te o
 * Indien buiten: hoe kan je de sensoren beschermen tegen weersinvloeden?
 Controleer of de data binnenkomt op het platform zoals je het verwacht: kloppen de intervallen? zijn de opgemeten waarden plausibel? ...?
 
-### Ondersteunend materiaal
+## Ondersteunend materiaal
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP4/onderzoeksopzet.html)
 
@@ -86,7 +112,7 @@ _We geven op bovenstaande webpagina enkele handvaten, maar we raden je aan zelf 
 
 # SP 5 Analyse meetresultaten
 
-### Korte beschrijving
+## Korte beschrijving
 
 Wat zeggen de meetgegevens over je probleemstelling?
 Je vindt de data op het platform. Je kan de data downloaden en in Excel of Python analyseren, afhankelijk van hoeveel je wil programmeren.
@@ -106,7 +132,7 @@ Je vindt de data op het platform. Je kan de data downloaden en in Excel of Pytho
         * verband tussen meetwaarden van twee sensoren (bv. zijn temperatuur en luchtvochtigheid in een klaslokaal aan elkaar gerelateerd?)
 * Welke grafieken?
 
-### Ondersteunend materiaal
+## Ondersteunend materiaal
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP5/analyse.html)
 
 _We geven op bovenstaande webpagina enkele handvaten hoe je de data-analyse kan starten, maar we raden je aan zelf na te denken welke analyses je precies van je leerlingen verwacht en in welke omgeving ze die moeten uitvoeren._
@@ -116,14 +142,14 @@ Indien gewenst kan je contact opnemen met iwast@kuleuven.be voor ondersteuning b
 
 # SP 6 Synthese en reflectie
 
-### Korte beschrijving
+## Korte beschrijving
 Welke besluiten kan je formuleren? 
 * Wat is het antwoord  op je onderzoeksvragen? 
 * Kan je nu een oplossing voor je probleem formuleren, of heb je hier nog meer materiaal/gegevens voor nodig?
 * Heeft IoT je geholpen je probleem beter in kaart te brengen? 
 * Wat waren de sterktes, beperkingen van de IoT technologie?
 
-### Ondersteunend materiaal
+## Ondersteunend materiaal
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP6/synthese.html)
 
