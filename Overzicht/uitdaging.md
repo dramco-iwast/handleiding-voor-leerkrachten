@@ -3,6 +3,7 @@ layout: default
 title: Uitdaging
 parent: Overzicht project
 has_toc: true
+has_children: false
 nav_order: 2
 ---
 

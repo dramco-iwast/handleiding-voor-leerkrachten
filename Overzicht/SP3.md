@@ -3,6 +3,7 @@ layout: default
 title: SP3: Selectie probleemstelling
 parent: Overzicht project
 has_toc: true
+has_children: false
 nav_order: 5
 ---
 
