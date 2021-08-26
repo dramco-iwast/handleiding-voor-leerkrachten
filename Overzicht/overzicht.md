@@ -6,6 +6,8 @@ nav_order: 2
 
 # Voorstelling KU Leuven Technologiecampus Gent en de opleiding industrieel ingenieur Elektronica-ICT
 
+Ter inleiding van dit project willen we graag vragen volgende filmpjes in de klas te laten zien, zodat de leerlingen weten waar dit project ontstaan is en wat de link is met onze opleiding industrieel ingenieur, afstudeerrichting elektronica-ICT.
+
 [Voorstelling KU Leuven Technologiecampus Gent](https://www.youtube.com/watch?v=zAj-Sjh6M2U&ab_channel=KULeuvenTechnologiecampusGent)
 [Voorstelling opleiding industrieel ingenieur Elektronica-ICT](https://youtu.be/UQbW6TNYlA0)
 
@@ -49,12 +51,12 @@ Hieronder komt een (groeiend) lijstje van probleemstellingen die klassen in het 
 # SP 2 Randvoorwaarden IoT systeem
 
 ## Korte beschrijving
-"Wat is het Internet der Dingen? 
+Wat is het Internet der Dingen? 
 Meetgegevens: 
 * wat (welke sensoren)? 
 * hoe (werkingsprincipe sensoren)?
 * waar (afstand tot gateway)? 
-* wanneer (polling vs threshold)?"
+* wanneer (polling vs threshold)?
 
 ## Ondersteunend materiaal
 
@@ -141,6 +143,17 @@ Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleid
 
 _We geven op bovenstaande webpagina enkele handvaten hoe je de data-analyse kan starten, maar we raden je aan zelf na te denken welke analyses je precies van je leerlingen verwacht en in welke omgeving ze die moeten uitvoeren._
 
+Als je leerlingen met Python aan de slag gaan, vind je heel veel info op [stack overflow](https://stackoverflow.com/) of via [google](https://www.google.com/) met de zoekopdracht "Python ..."
+Via libraries kan je extra functies inladen. Gebruik hiervoor het commando "import <lib> as <nameToUse>".
+Handige libraries zijn:
+* SciPy.Stats (onderdeel van SciPy) - statistische functies, bv statistische testen
+* Pandas (onderdeel van SciPy) - data-analyse en -manipulatie
+* Numpy (onderdeel van SciPy) - wetenschappelijk rekenen, wiskundige functies
+* Matplotlib (onderdeel van SciPy): pyplot, dates - visualisaties
+* Seaborn (gebaseerd op Matplotlib): data visualisaties
+
+Als je leerlingen met MS Excel aan de slag gaan, veronderstellen dat ze hiervoor voldoende voorkennis hebben of dat je als leerkracht de nodige ondersteuning voorziet. Op [youtube](https://www.youtube.com/watch?v=6gvMOkCW0ug) leggen we alvast uit hoe je de data uit het platform in MS Excel inlaadt.
+
 Indien gewenst kan je contact opnemen met iwast@kuleuven.be voor ondersteuning bij selectie en/of uitvoering van de analyses.
 
 
@@ -172,5 +185,5 @@ Uitdaging | | | | probleemgecentreerd |
 6 | 6.52, 13.14 | 13.13, 13.14 | (S), (M), E | onderzoekend leren, geïntegreerd |
 geheel | 6.55, 6.57| 6.40, 6.41, 6.42, 6.43 | |
 
-De implementatie van het iSTEM-principe _coöperatief leren_ is in handen van de begeleidende leerkracht. Uiteraard raden we aan leerlingen in groepjes te laten werken en waar mogelijk van elkaar te laten leren, bv. door ze verschillende probleemcontexten of deelproblemen te laten onderzoeken.
+De implementatie van het iSTEM-principe _coöperatief leren_ is in handen van de begeleidende leerkracht. Uiteraard raden we aan leerlingen in groepjes te laten werken en waar mogelijk van elkaar te laten leren, bv. door ze door samen te werken een rijkere dataset te laten verzamelen of een rijkere probleemstelling te laten verkennen.
 
