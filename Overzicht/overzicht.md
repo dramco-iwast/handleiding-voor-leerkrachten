@@ -176,7 +176,7 @@ Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleid
 
 _We geven op bovenstaande webpagina enkele handvaten hoe je de data-analyse kan starten, maar we raden je aan zelf na te denken welke analyses je precies van je leerlingen verwacht en in welke omgeving ze die moeten uitvoeren._
 
-Als je leerlingen met Python aan de slag gaan, vind je heel veel info op [stack overflow](https://stackoverflow.com/) of via [google](https://www.google.com/) met de zoekopdracht "Python ..."
+Als je leerlingen met Python aan de slag gaan, vind je heel veel info op [stack overflow](https://stackoverflow.com/) of via [google](https://www.google.com/) met de zoekopdracht "Python ...".
 Via libraries kan je extra functies inladen. Gebruik hiervoor het commando "import \<lib\> as \<nameToUse\>" (Vul tussen \< \> de librarie naam en de naam waaronder je de librarie wilt gebruiken in).
 Handige libraries zijn:
 * SciPy.Stats (onderdeel van SciPy) - statistische functies, bv statistische testen
