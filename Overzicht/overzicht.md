@@ -88,7 +88,7 @@ Het lijstje van randvoorwaarden waarmee leerlingen zeker rekening moeten houden:
 
 ### Samenvattende oefening
 
-Eventueel kan je aan de leerlingen volgende vragen voorleggen om na te gaan of ze alles goed begrepen hebben, of je kan hen aan de hand van deze vragen en een selectie bronnen ((handleiding voor leerlingen0[https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html], (ppt IoT)[./../assets/files/IoT_IoTree.pptx], (ppt sensoren)[./../assets/files/elektronische_systemen.pptx]) antwoorden op onderstaande vragen laten formuleren.
+Eventueel kan je aan de leerlingen volgende vragen voorleggen om na te gaan of ze alles goed begrepen hebben, of je kan hen aan de hand van deze vragen en een selectie bronnen ((handleiding voor leerlingen)[https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html], (ppt IoT)[./../assets/files/IoT_IoTree.pptx], (ppt sensoren)[./../assets/files/elektronische_systemen.pptx]) antwoorden op onderstaande vragen laten formuleren.
 * Hoe werkt het internet?
     * _Het internet is een wereldwijd netwerk van computernetwerken. Het laadt ons toe emails te sturen, websites te raadplegen, te communiceren via chat, ..._
     * _Toegang tot het internet kan zowel via kabel als draadloos. Draadloze internettoegang is bijvoorbeeld toegang via Wifi, wanneer je smartphone of laptop verbinding maakt met een wifi-router of via ja smartphone via het cellulaire netwerk voor mobiele telefonie, vb. 3G of 4G (en in de toekomst ook 5G)._
@@ -177,7 +177,7 @@ Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleid
 _We geven op bovenstaande webpagina enkele handvaten hoe je de data-analyse kan starten, maar we raden je aan zelf na te denken welke analyses je precies van je leerlingen verwacht en in welke omgeving ze die moeten uitvoeren._
 
 Als je leerlingen met Python aan de slag gaan, vind je heel veel info op [stack overflow](https://stackoverflow.com/) of via [google](https://www.google.com/) met de zoekopdracht "Python ..."
-Via libraries kan je extra functies inladen. Gebruik hiervoor het commando "import <lib> as <nameToUse>".
+Via libraries kan je extra functies inladen. Gebruik hiervoor het commando "import \<lib\> as \<nameToUse\>" (Vul tussen \< \> de librarie naam en de naam waaronder je de librarie wilt gebruiken in).
 Handige libraries zijn:
 * SciPy.Stats (onderdeel van SciPy) - statistische functies, bv statistische testen
 * Pandas (onderdeel van SciPy) - data-analyse en -manipulatie
