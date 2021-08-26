@@ -184,6 +184,8 @@ Handige libraries zijn:
 * Numpy (onderdeel van SciPy) - wetenschappelijk rekenen, wiskundige functies
 * Matplotlib (onderdeel van SciPy): pyplot, dates - visualisaties
 * Seaborn (gebaseerd op Matplotlib): data visualisaties
+(Hier)[./../assets/files/demo_python/python_demo.ipynb] vind je een Jupyter notebook dat als basis en mits aanpassingen kan gebruikt worden, met een eigen dataset of met (deze demo-dataset)[./../assets/files/demo_python/iwast-the-chamber-of-secrets.csv].
+Een Jupyter notebook kan je opstarten in je browser, bv Google chrome, door naar volgende (website van Jupyter)[https://jupyter.org/try] te surfen en op 'Try JupyterLab' te klikken. Vervolgens upload je het (Hier)[./../assets/files/demo_python/python_demo.ipynb] en de (deze demo-dataset)[./../assets/files/demo_python/iwast-the-chamber-of-secrets.csv] via 'Upload files' links. Eenmaal het notebook is geladen kan je het cell per cell uitvoeren door op het play-pijltje ('Run the selected cells and advance') te klikken.
 
 Als je leerlingen met MS Excel aan de slag gaan, veronderstellen dat ze hiervoor voldoende voorkennis hebben of dat je als leerkracht de nodige ondersteuning voorziet. Op [youtube](https://www.youtube.com/watch?v=6gvMOkCW0ug) leggen we alvast uit hoe je de data uit het platform in MS Excel inlaadt.
 
