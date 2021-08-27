@@ -1,0 +1,157 @@
+%%%%%% Verander de volgende lijnen niet %%%%%%%
+
+\documentclass[12pt,a4paper,svgnames,oneside]{book}
+\input{inputs/oplossingen-file-commandos.tex}
+\initialiseer{inputs/oplossingen-alle.tmp}{inputs/oplossingen-zonder-ster.tmp}
+\input{inputs/preamble-macro-zonderlogo.tex}
+
+\usepackage{siunitx} % for SI units
+\usepackage{chemformula} % for chemical formulas
+\usepackage{booktabs} % mooie tabellen
+\usepackage{tabularx}
+\usepackage{circuitikz}
+\usepackage{soul}
+
+\usetikzlibrary{external}
+\usetikzlibrary{patterns}
+% \tikzexternalize[prefix=tikz/]
+
+\newcommand{\rotateRPY}[3]% roll, pitch, yaw
+{   \pgfmathsetmacro{\rollangle}{#2}
+    \pgfmathsetmacro{\pitchangle}{#3}
+    \pgfmathsetmacro{\yawangle}{#1}
+
+    % to what vector is the x unit vector transformed, and which 2D vector is this?
+    \pgfmathsetmacro{\newxx}{cos(\yawangle)*cos(\pitchangle)}
+    \pgfmathsetmacro{\newxy}{sin(\yawangle)*cos(\pitchangle)}
+    \pgfmathsetmacro{\newxz}{-sin(\pitchangle)}
+    \path (\newxx,\newxy,\newxz);
+    \pgfgetlastxy{\nxx}{\nxy};
+
+    % to what vector is the y unit vector transformed, and which 2D vector is this?
+    \pgfmathsetmacro{\newyx}{cos(\yawangle)*sin(\pitchangle)*sin(\rollangle)-sin(\yawangle)*cos(\rollangle)}
+    \pgfmathsetmacro{\newyy}{sin(\yawangle)*sin(\pitchangle)*sin(\rollangle)+ cos(\yawangle)*cos(\rollangle)}
+    \pgfmathsetmacro{\newyz}{cos(\pitchangle)*sin(\rollangle)}
+    \path (\newyx,\newyy,\newyz);
+    \pgfgetlastxy{\nyx}{\nyy};
+
+    % to what vector is the z unit vector transformed, and which 2D vector is this?
+    \pgfmathsetmacro{\newzx}{cos(\yawangle)*sin(\pitchangle)*cos(\rollangle)+ sin(\yawangle)*sin(\rollangle)}
+    \pgfmathsetmacro{\newzy}{sin(\yawangle)*sin(\pitchangle)*cos(\rollangle)-cos(\yawangle)*sin(\rollangle)}
+    \pgfmathsetmacro{\newzz}{cos(\pitchangle)*cos(\rollangle)}
+    \path (\newzx,\newzy,\newzz);
+    \pgfgetlastxy{\nzx}{\nzy};
+}
+
+\tikzset{RPY/.style={x={(\nxx,\nxy)},y={(\nyx,\nyy)},z={(\nzx,\nzy)}}}
+
+\begin{document}
+\addtocounter{page}{-1}
+% \tikzexternalize[prefix=inputs/tikzFigures/,optimize command away=\includepdf]
+
+%%--------------------------------------------------------
+%% Begin met het logo te defini\"{e}ren: de syntax is
+%% \renewcommand{\filenaamlogo}{inputs/....}
+%% waarbij je .... vervangt door de filenaam van het logo. Alvast drie beschikbare mogelijkheden zijn:
+%% \renewcommand{\filenaamlogo}{inputs/kubus-wetenschappen.png}
+%% \renewcommand{\filenaamlogo}{inputs/esat-logo.pdf}
+%% \renewcommand{\filenaamlogo}{inputs/logo-cs.png}
+%% Vervang in de onderstaande lijn logo-cs.png door de correcte documentnaam. Zorg dat je logo opgeslagen is in de inputs map.
+
+%\renewcommand{\filenaamlogo}{inputs/logo-cs.png}
+
+\DeclareRobustCommand{\mybox}[2][gray!20]{%
+	\begin{tcolorbox}[   %% Adjust the following parameters at will.
+		breakable,
+		left=0pt,
+		right=0pt,
+		top=0pt,
+		bottom=0pt,
+		colback=#1,
+		colframe=#1,
+		width=\dimexpr\textwidth\relax, 
+		enlarge left by=0mm,
+		boxsep=5pt,
+		arc=0pt,outer arc=0pt,
+		]
+		#2
+	\end{tcolorbox}
+}
+
+%%------------------------------------------------------
+
+%% In de volgende lijn importeer je (in pdf) de frontpagina. Die maken we apart aan in een uniforme stijl. Er worden andere kleuren gebruikt voor de leerlingenbundels en voor de lerarenbundels.
+%% Je kan de volgende regel veranderen in
+%% \includepdf{inputs/voorbeeld-cover-vooraan-lkr.pdf} of vervangen door de correcte documentnaam.
+
+%\includepdf{inputs/voorkant-leerling.pdf}
+
+%%---------------------------------------------------------
+
+
+%% Verander de volgende lijn niet. Deze zorgt voor het aanmaken van de inhoudstafel.
+
+%\tableofcontents
+
+%%----------------------------------------------------------
+
+%% Nog wat uitleg
+
+%% Een tekst voor het Junior College is als volgt opgebouwd:
+%% - verschillende modules (of hoofdstukken)
+%% - eventueel afgewisseld met intermezzo's
+%% - en achteraan de oplossingen van de oefeningen zonder ster (voor de leerlingenbundel)
+%% - of achteraan de oplossingen van alle oefeningen (voor de leerkrachtenhandleiding)
+
+
+%% In de deeldirectory inputs stop je alle figuren die je wil importeren. Deze figuren moeten in .jpg of .pdf zijn, of een ander formaat dat door PDF-LaTeX verstaan wordt.
+%% In de deeldirectory inputs staan ook de files "cover-vooraan.pdf" en "cover-achteraan.pdf". 
+
+%%------------------------------------------------------
+
+\input{module5}
+
+
+%% Dit is het einde van de echte file.
+%%-------------------------------------------------------
+
+%% Van de volgende regel moet je afblijven.
+
+\sluitfiles
+%%-------------------------------------------------------
+
+
+%% Om de oplossingen van de oefeningen aan te maken kies je \'{e}\'{e}n van de onderstaande blokken, zonder iets aan deze blokken te veranderen:
+%% ofwel produceer je achteraan de oplossingen van de oefeningen zonder ster (versie voor leerlingen); ofwel produceer je achteraan alle oplossingen (versie voor leerkrachten).
+%%----------------------------------------------------------
+%% Begin van het blok voor de oplossingen zonder ster %%
+
+\deelzonderoef{}{Oplossingen van de oefeningen zonder $\ast$}{Oplossingen van de oefeningen zonder $\ast$}
+
+\renewcommand{\sectionmark}[1]{\markright{\mijnoplosmark}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}[block]{}{}{0pt}{\zondernummer{#1}}
+
+\input{inputs/oplossingen-zonder-ster.tmp}
+%% Einde van het blok voor de oplossingen zonder ster %%
+%%---------------------------------------------------------
+
+%% Begin van het blok voor alle oplossingen%%
+
+\deelzonderoef{}{Oplossingen van alle oefeningen}{Oplossingen van alle oefeningen}
+
+\renewcommand{\sectionmark}[1]{\markright{\mijnoplosmark}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}[block]{}{}{0pt}{\zondernummer{#1}}
+
+\input{inputs/oplossingen-alle.tmp}
+%% Einde van het blok voor alle oplossingen%%
+%%--------------------------------------------------------
+
+%% In de volgende en laatste regel importeer je de achterflap. Je maakt een keuze tussen:
+%% \includepdf{inputs/achterflap-leerling.pdf}
+%% \includepdf{input/achterflap-leraar.pdf}
+
+\includepdf{inputs/achterflap-leerling.pdf}
+
+\end{document} 

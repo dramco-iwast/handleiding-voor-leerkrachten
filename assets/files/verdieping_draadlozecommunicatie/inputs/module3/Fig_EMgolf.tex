@@ -1,0 +1,25 @@
+ \tikzsetfigurename{module3_fig_EMgolf}
+ \begin{tikzpicture}[x={(-10:2cm)},y={(90:2cm)},z={(210:2cm)}]
+    % Axes
+    \draw[->] (-1,0,0) -- (6,0,0) node[above right] {$x$};
+    \draw[->] (0,0,0) -- (0,2,0) node[above] {$y$};
+    \draw[->] (0,0,0) -- (0,0,2) node[left] {$z$};
+    % Propagation
+    \draw[->,ultra thick] (4.5,0,0) -- node[above] {$\vec{c}$} (5.5,0,0);
+    % Waves
+    \draw[thick,blue] plot[domain=0:4.5,samples=200] (\x,{cos(deg(pi*\x))},0);
+    \draw[red,thick] plot[domain=0:4.5,samples=200] (\x,0,{cos(deg(pi*\x))});
+    % Arrows
+    \foreach \x in {0.1,0.3,...,4.4} {
+      \draw[-,blue,dashed] (\x,0,0) -- (\x,{cos(deg(pi*\x))},0);
+      \draw[-,red,dashed] (\x,0,0) -- (\x,0,{cos(deg(pi*\x))});
+    }
+    % Labels
+    \node[above right,blue] at (0,1,0) {$\vec{E}$};
+    \node[below,red] at (0,0,1) {$\vec{B}$};
+    
+    \draw [help lines] (2, 1.4, 0) -- (2, 1.6, 0);
+    \draw [help lines] (4, 1.4, 0) -- (4, 1.6, 0);
+    \draw [help lines] (2, 1.5, 0) -- (4, 1.5, 0)
+    node [pos =0.5 , fill =white , text = black ]{$ \lambda $};
+  \end{tikzpicture}   

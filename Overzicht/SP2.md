@@ -24,6 +24,8 @@ _Je kan eventueel volgende ondersteunende presentatie [PDF](./../assets/files/Io
 
 _Je kan eventueel volgende ondersteunende presentatie [ppt](./../assets/files/elektronische_systemen.pptx) gebruiken om elektronische systemen en sensoren bij je leerlingen te introduceren_
 
+_Je kan eventueel volgende ondersteunende tekst [PDF](./../assets/files/verdieping_draadlozecommunicatie/JC_iotree.pdf) gebruiken om draadloze communicatie met je leerlingen te introduceren_
+
 _Je kan zelf kiezen hoe diep je leerlingen op bepaalde zaken laat ingaan, naargelang je eigen achtergrond en voorkennis en interesse van de leerlingen: werking van het internet, types sensoren en werkingsprincipe van de beschikbare IoT sensoren, dataverwerking op de sensorborden (bv. geluidsensor), ..._
 
 ### Oefening: randvoorwaarden oplijsten

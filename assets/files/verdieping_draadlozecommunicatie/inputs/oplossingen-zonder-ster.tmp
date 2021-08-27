@@ -1,0 +1,8 @@
+\renewcommand {\mijnoplosmark }{Oplossingen module 5}\section [Module 5. Draadloze communicatie]{Oplossingen module 5}\markright {Oplossingen module 5}
+\begin {opgelost}{1} EM golven zijn transversale golven, want de trillingen van elektrisch en magnetisch veld staan loodrecht op de voortplantingsrichting. \end {opgelost}
+\begin {opgelost}{2}  \begin {itemize} \item Dit komt overeen met golflengtes tussen 0.345 en 0.348 m. \item Dit zijn radiogolven. \item Radiogolven worden opgewekt door zendantennes. \end {itemize} \end {opgelost}
+\begin {opgelost}{3}  \begin {itemize} \item $10 ~mW = 10 \cdot 1 ~dBm = 10~dBm$ \item $250 ~mW = 10 \cdot \log _{10} 250 ~dBm = 24~dBm$ \item $100 ~W = 10 \cdot \log _{10} \frac {100000}{1} ~dBm = 50~dBm$ \end {itemize}  \end {opgelost}
+\begin {opgelost}{4} \begin {equation*} P = 10^{\frac {x}{10}} ~ mW \end {equation*} \end {opgelost}
+\begin {opgelost}{5} TODO \end {opgelost}
+\begin {opgelost}{6} $P_{o,dBm} = G_{z,dBm} + G_{o,dBm} + 20 \cdot \log _{10} (\frac {\lambda }{4\pi d}) + P_{z,dBm}$ \end {opgelost}
+\begin {opgelost}{8}  \begin {itemize} \item Vermogenverliezen door reflectie, absorptie en diffractie. \item {\color {red} TODO uitrekenen} \end {itemize}  \end {opgelost}
