@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SP5: Analyse meetresultaten
+title: SP5 Analyse meetresultaten
 parent: Overzicht project
 has_toc: true
 has_children: false
