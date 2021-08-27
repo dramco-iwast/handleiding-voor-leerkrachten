@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SP6: Synthese en reflectie
+title: SP6 Synthese en reflectie
 parent: Overzicht project
 has_toc: true
 has_children: false

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SP2: Randvoorwaarden IoT systeem
+title: SP2 Randvoorwaarden IoT systeem
 parent: Overzicht project
 has_toc: true
 has_children: false

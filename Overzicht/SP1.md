@@ -1,8 +1,9 @@
 ---
 layout: default
-title: SP1: brainstorm
+title: SP1 brainstorm
 parent: Overzicht project
 has_toc: true
+has_children: false
 nav_order: 3
 ---
 # SP 1 Brainstorm

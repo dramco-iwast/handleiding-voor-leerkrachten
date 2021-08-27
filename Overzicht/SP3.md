@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SP3: Selectie probleemstelling
+title: SP3 Selectie probleemstelling
 parent: Overzicht project
 has_toc: true
 has_children: false

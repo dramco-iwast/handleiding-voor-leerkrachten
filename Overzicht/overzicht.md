@@ -15,6 +15,10 @@ Ter inleiding van dit project willen we graag vragen volgende filmpjes in de kla
 
 Het project bestaat uit verschillende onderdelen: we starten met het formuleren van een uitdaging, waarna de leerlingen verschillende subproblemen doorlopen.
 
+# Bijscholingsmoment
+
+[Hier](./../assets/files/IWAST-bijscholingsmoment.pptx) vind je de ppt gebruikt tijdens het bijscholingsmoment (mogelijks geupdatet).
+
 # Link subproblemen, onderwijsdoelen, STEM-disciplines en iSTEM-principes
 
 Hieronder is de link tussen de onderwijsdoelen, STEM-disciplines en iSTEM-principes en elk subprobleem gegeven.
