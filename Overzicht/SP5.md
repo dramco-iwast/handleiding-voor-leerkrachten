@@ -51,4 +51,4 @@ Handige libraries zijn:
 
 Als je leerlingen met MS Excel aan de slag gaan, veronderstellen dat ze hiervoor voldoende voorkennis hebben of dat je als leerkracht de nodige ondersteuning voorziet. Op [youtube](https://www.youtube.com/watch?v=6gvMOkCW0ug) leggen we alvast uit hoe je de data uit het platform in MS Excel inlaadt.
 
-Indien gewenst kan je contact opnemen met iwast@kuleuven.be voor ondersteuning bij selectie en/of uitvoering van de analyses.
+Indien gewenst kan je contact opnemen met iwast@dramco.be voor ondersteuning bij selectie en/of uitvoering van de analyses.

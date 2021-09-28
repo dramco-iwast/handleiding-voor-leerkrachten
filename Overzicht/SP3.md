@@ -18,7 +18,7 @@ Welke probleemstellingen uit de brainstorm zijn haalbaar om te onderzoeken met d
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP3/selectieProbleem.html)
 
-_We geven op bovenstaande webpagina enkele handvaten, maar we raden je aan zelf na te denken hoe je deze reflectie- en selectieoefeningen kan begeleiden. Neem contact op met iwast@kuleuven.be indien je de probleemstellingen en onderzoeksvragen die de leerlingen willen uitwerken graag even aan ons voorlegt._
+_We geven op bovenstaande webpagina enkele handvaten, maar we raden je aan zelf na te denken hoe je deze reflectie- en selectieoefeningen kan begeleiden. Neem contact op met iwast@dramco.be indien je de probleemstellingen en onderzoeksvragen die de leerlingen willen uitwerken graag even aan ons voorlegt._
 
 ### Korte beschrijving
 Brainstorm: welke 'problemen' zou je mogelijk in kaart kunnen brengen? 
