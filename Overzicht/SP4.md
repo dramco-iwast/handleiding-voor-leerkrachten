@@ -23,4 +23,6 @@ Controleer of de data binnenkomt op het platform zoals je het verwacht: kloppen 
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP4/onderzoeksopzet.html)
 
+Uitleg over de configuratie-tool [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP4/configuration-tool.html)
+
 _We geven op bovenstaande webpagina enkele handvaten, maar we raden je aan zelf na te denken hoe je de uitwerking van het onderzoeksopzet best ondersteunt voor jouw leerlingengroep._
