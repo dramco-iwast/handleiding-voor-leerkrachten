@@ -20,6 +20,8 @@ Meetgegevens:
 
 Uitleg voor de leerlingen vind je [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html)
 
+_Deze [ppt-presentatie](./../assets/files/IoT_Intro_bijscholing.pptx) gebruikten we om het internet der dingen en de werking van sensoren te introduceren tijdens de bijscholing._
+
 _Je kan eventueel volgende ondersteunende presentatie [PDF](./../assets/files/IoT_IoTree.pdf) en [ppt](./../assets/files/IoT_IoTree.pptx) gebruiken om het internet en het Internet der Dingen bij je leerlingen te introduceren_
 
 _Je kan eventueel volgende ondersteunende presentatie [ppt](./../assets/files/elektronische_systemen.pptx) gebruiken om elektronische systemen en sensoren bij je leerlingen te introduceren_
