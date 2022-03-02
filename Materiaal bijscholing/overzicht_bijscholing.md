@@ -30,7 +30,9 @@ Ter inleiding van dit project willen we graag vragen volgende filmpjes in de kla
 
 # Introductie IoT
 
-[Hier](https://www.youtube.com/watch?v=5W8C_4f9mZ0) kan je een filmpje (30 min) bekijken waar het begrip 'Internet der Dingen - IoT', de typische architectuur van IoT systemen en de uitdagingen bij implementatie en uitrol van IoT systemen besproken worden. Dit filmpje kan je gerust ook in de klas laten zien bij het behandelen van [subprobleem 2: Randvoorwaarden IoT systeem](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html).
+[Hier](https://www.youtube.com/watch?v=5W8C_4f9mZ0) kan je een filmpje (30 min) bekijken waar het begrip 'Internet der Dingen - IoT', de typische architectuur van IoT systemen en de uitdagingen bij implementatie en uitrol van IoT systemen besproken worden. 
+
+Dit filmpje kan je gerust ook in de klas laten zien bij het behandelen van [subprobleem 2: Randvoorwaarden IoT systeem](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html). De presentatie vind je [hier](./../assets/files/IoT_Intro_bijscholing.pptx).
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5W8C_4f9mZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
