@@ -6,6 +6,10 @@ has_toc: true
 nav_order: 4
 ---
 
+# Configuratie-tool
+
+Ga op voorhand na of je de [configuratie-tool](https://github.com/dramco-iwast/qt-config/releases).  kan installeren op de laptops/computers die de leerlingen gebruiken.
+
 # Draadloze communicatie
 De moederborden bevatten een LoRaWAN modem om een draadloze verbinding tot stand te brengen.
 LoRaWAN is een Low-Power Wide-Area Network technologie die het mogelijk maakt om draadloos kleine hoeveelheden data over een groot bereik te verzenden.
@@ -18,6 +22,11 @@ Iedereen kan gateways toevoegen aan dit netwerk om zo het netwerk uit te breiden
 Als er geen dekking is door het TTN, zorgen we voor een LoRaWAN-netwerk.
 Je kunt de actieve gateways bekijken op de [TTN map](https://www.thethingsnetwork.org/map).
 Zorg ervoor dat er een gateway aanwezig is binnen een bereik van minimaal 1km van uw apparaten.
+In het geval dat er geen dekking is door het TTN, zullen wij een LoRaWAN Gateway beschikbaar stellen.
+
+## Installatie gateway
+
+Om de gateway te installeren, ga naar het [platform](https://dramco.be/projects/iwast/platform/) en login met de login/sessienaam die je terugvindt op het papier in je rugzak. Je ziet daar de installatie-instructies voor de gateway die je hebt meegekregen, zie ook [hier](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP5/Platform/platform.html).
 
 ## Beperkingen
 Ons systeem wordt door twee regels beperkt in het aantal berichten dat we kunnen versturen.
@@ -42,15 +51,9 @@ Raadpleeg voor meer informatie de [TTN documentatie](https://www.thethingsnetwor
 ### Beleid inzake eerlijke toegang
 Bovenop de duty cycle limitatie, wordt de totale air time (d.w.z. hoe lang we berichten verzenden) beperkt tot 30 seconden per dag om de load op de gateways van de TTN te verlagen. 
 
-## LoRaWAN Gateway
-In het geval dat er geen dekking is door het TTN, zullen wij een LoRaWAN Gateway beschikbaar stellen.
-
-### Netwerk toegang
+<!--### Netwerk toegang
 Om de gateway te kunnen gebruiken, moet de firewall TCP communicatie over poort 1700 van en naar `router.eu.thethings.network` toestaan.
 
 - TCP poort: `1700` (omhoog/omlaag)
 - Bestemming: `router.eu.thethings.network`
-
-# Configuratie-tool
-
-Ga op voorhand na of je de [configuratie-tool](https://github.com/dramco-iwast/qt-config/releases).  kan installeren op de laptops/computers die de leerlingen gebruiken.
+-->

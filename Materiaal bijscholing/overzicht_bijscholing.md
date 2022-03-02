@@ -65,4 +65,8 @@ De implementatie van het iSTEM-principe _coöperatief leren_ is in handen van de
 
 [Hier](./../assets/files/IWAST-bijscholingsmoment.pptx) vind je de ppt gebruikt tijdens het bijscholingsmoment (mogelijks geupdatet).
 
+# Concept map
+
+[Hier](https://miro.com/app/board/o9J_l0GraNk=/) vind je een concept map die de concepten die binnen dit project aan bod _kunnen_ komen en hun onderlinge verbanden oplijst.
+
 

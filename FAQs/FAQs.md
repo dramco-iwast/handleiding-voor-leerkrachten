@@ -8,7 +8,6 @@ nav_order: 5
 
 # F.A.Q.
 
-
 ## Moederbord
 
 ###	Hoe groot is het geheugen (voor de sensordata) van het moederbord? Is het mogelijk om via interrupts (bv met de stemknoppen) gedurende bv. een halfuur veel input door te sturen als je daarna 24 uur stil ligt, of zal de data dan toch gedropt worden?
@@ -26,9 +25,7 @@ Dit is momenteel niet mogelijk met de huidige firmware op het moederbord. We bek
 
 ### Kan je het batterijniveau vanop afstand uitlezen? Of een signaal sturen als het batterijniveau onder een bepaalde threshold zakt?
 Dit is niet mogelijk met de huidige hardwareversie van het moederbord: het batterijniveau kan je voorlopig nog niet op afstand uitlezen. 
-Er wordt nergens gemeten wat het batterijniveau is waardoor het dus ook niet mogelijk is om een signaal te genereren op het moment dat het batterijniveau zakt onder een bepaalde drempel. 
-Dit sluit niet uit dat deze feature niet in een volgende versie kan voorzien worden.
-Voorlopig is het uitvallen/onzichtbaar worden op het platform van de node de enige indicator voor een lege batterij.
+Je kan wel de spanning geleverd door de batterij uitlezen. De spanning blijft relatief constant tot de batterij bijna plat is. Dan zal de geleverde spanning snel afnemen.
 
 ## Geluidsensor
 
