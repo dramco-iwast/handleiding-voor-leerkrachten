@@ -4,7 +4,7 @@ title: SP6 Synthese en reflectie
 parent: Overzicht project
 has_toc: true
 has_children: false
-nav_order: 7
+nav_order: 9
 ---
 
 # SP 6 Synthese en reflectie

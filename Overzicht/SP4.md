@@ -4,7 +4,7 @@ title: SP4 Onderzoeksopzet
 parent: Overzicht project
 has_toc: true
 has_children: false
-nav_order: 6
+nav_order: 7
 ---
 
 # SP 4 Onderzoeksopzet

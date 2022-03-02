@@ -4,7 +4,7 @@ title: SP3 Selectie probleemstelling
 parent: Overzicht project
 has_toc: true
 has_children: false
-nav_order: 5
+nav_order: 6
 ---
 
 # SP 3 Selectie probleemstelling
