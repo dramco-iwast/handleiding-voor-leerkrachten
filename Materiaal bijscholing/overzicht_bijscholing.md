@@ -2,11 +2,15 @@
 layout: default
 title: Materiaal bijscholing
 nav_order: 2
-has_children: false
+has_children: true
 has_toc: true
 ---
 
 # Welkom en voorstelling project
+
+<p align="center">
+Hier komt nog een filmpje dat het IWAST team en het project voorstelt
+</p>
 
 # Voorstelling KU Leuven Technologiecampus Gent en de opleiding industrieel ingenieur Elektronica-ICT
 
@@ -20,11 +24,23 @@ Ter inleiding van dit project willen we graag vragen volgende filmpjes in de kla
 
 [Voorstelling opleiding industrieel ingenieur Elektronica-ICT](https://youtu.be/UQbW6TNYlA0)
 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UQbW6TNYlA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 # Introductie IoT
 
 [Hier](https://www.youtube.com/watch?v=5W8C_4f9mZ0) kan je een filmpje (30 min) bekijken waar het begrip 'Internet der Dingen - IoT', de typische architectuur van IoT systemen en de uitdagingen bij implementatie en uitrol van IoT systemen besproken worden. Dit filmpje kan je gerust ook in de klas laten zien bij het behandelen van [subprobleem 2: Randvoorwaarden IoT systeem](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html).
 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5W8C_4f9mZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 # Voorstelling documentatie
+
+<p align="center">
+Hier komt nog een filmpje dat het documentatiemateriaal overloopt
+</p>
 
 # Link subproblemen, onderwijsdoelen, STEM-disciplines en iSTEM-principes
 
@@ -43,5 +59,8 @@ geheel | 6.55, 6.57| 6.40, 6.41, 6.42, 6.43 | |
 
 De implementatie van het iSTEM-principe _coöperatief leren_ is in handen van de begeleidende leerkracht. Uiteraard raden we aan leerlingen in groepjes te laten werken en waar mogelijk van elkaar te laten leren, bv. door ze door samen te werken een rijkere dataset te laten verzamelen of een rijkere probleemstelling te laten verkennen.
 
+# Bijscholingsmoment
+
+[Hier](./../assets/files/IWAST-bijscholingsmoment.pptx) vind je de ppt gebruikt tijdens het bijscholingsmoment (mogelijks geupdatet).
 
 
