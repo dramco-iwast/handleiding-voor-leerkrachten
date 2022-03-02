@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Overzicht project
+title: Materiaal bijscholing
 nav_order: 2
 has_children: true
 has_toc: true
