@@ -13,6 +13,11 @@ has_toc: true
 Ter inleiding van dit project willen we graag vragen volgende filmpjes in de klas te laten zien, zodat de leerlingen weten waar dit project ontstaan is en wat de link is met onze opleiding industrieel ingenieur, afstudeerrichting elektronica-ICT.
 
 [Voorstelling KU Leuven Technologiecampus Gent](https://www.youtube.com/watch?v=zAj-Sjh6M2U&ab_channel=KULeuvenTechnologiecampusGent)
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zAj-Sjh6M2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 [Voorstelling opleiding industrieel ingenieur Elektronica-ICT](https://youtu.be/UQbW6TNYlA0)
 
 # Introductie IoT
@@ -37,4 +42,6 @@ Uitdaging | | | | probleemgecentreerd |
 geheel | 6.55, 6.57| 6.40, 6.41, 6.42, 6.43 | |
 
 De implementatie van het iSTEM-principe _coöperatief leren_ is in handen van de begeleidende leerkracht. Uiteraard raden we aan leerlingen in groepjes te laten werken en waar mogelijk van elkaar te laten leren, bv. door ze door samen te werken een rijkere dataset te laten verzamelen of een rijkere probleemstelling te laten verkennen.
+
+
 
