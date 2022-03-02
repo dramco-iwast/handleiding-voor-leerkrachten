@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Overzicht project
-nav_order: 3
+nav_order: 2
 has_children: true
 has_toc: true
 ---
+
+# Welkom en voorstelling project
 
 # Voorstelling KU Leuven Technologiecampus Gent en de opleiding industrieel ingenieur Elektronica-ICT
 
@@ -13,11 +15,11 @@ Ter inleiding van dit project willen we graag vragen volgende filmpjes in de kla
 [Voorstelling KU Leuven Technologiecampus Gent](https://www.youtube.com/watch?v=zAj-Sjh6M2U&ab_channel=KULeuvenTechnologiecampusGent)
 [Voorstelling opleiding industrieel ingenieur Elektronica-ICT](https://youtu.be/UQbW6TNYlA0)
 
-Het project bestaat uit verschillende onderdelen: we starten met het formuleren van een uitdaging, waarna de leerlingen verschillende subproblemen doorlopen.
+# Introductie IoT
 
-# Bijscholingsmoment
+[Hier](https://www.youtube.com/watch?v=5W8C_4f9mZ0) kan je een filmpje (30 min) bekijken waar het begrip 'Internet der Dingen - IoT', de typische architectuur van IoT systemen en de uitdagingen bij implementatie en uitrol van IoT systemen besproken worden. Dit filmpje kan je gerust ook in de klas laten zien bij het behandelen van [subprobleem 2: Randvoorwaarden IoT systeem](https://dramco-iwast.github.io/handleiding-voor-leerlingen/SP2/inhoud.html).
 
-[Hier](./../assets/files/IWAST-bijscholingsmoment.pptx) vind je de ppt gebruikt tijdens het bijscholingsmoment (mogelijks geupdatet).
+# Voorstelling documentatie
 
 # Link subproblemen, onderwijsdoelen, STEM-disciplines en iSTEM-principes
 
